@@ -38,3 +38,26 @@
     background: #da552f;
     color: #fff;
 }
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.products-list .actions button{
+    background-color:#da552f;
+    border: 0;
+    border-radius: 5px;
+    padding:10px 20px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.products-list .actions button:hover{
+    opacity: 0.7;
+}
+
+.products-list .actions button:disabled{
+    opacity: 0.5;;
+}
